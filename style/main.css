@@ -1,0 +1,244 @@
+/**********NAV********/
+
+nav {
+  background-color: rgb(202, 168, 80);
+}
+
+
+#navbarSupportedContent li a {
+  color: white;
+  font-family: 'Open sans', sans-serif;
+}
+
+#navbarSupportedContent li a:hover {
+  color: rgba(188, 185, 185, 0.695);
+}
+
+.navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  padding-left: 4.9rem;
+}
+
+.dropdown-menu {
+  background: rgb(119, 117, 117);
+}
+
+/**********SCREEN MAX 287PX********/
+
+@media (max-width:287px) {
+  .gallery {
+    padding-top: 90px;
+  }
+}
+
+/**********SCREEN MAX 575PX********/
+@media (max-width:575px) {
+
+  .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+  }
+
+}
+
+
+/**********SCREEN MIN 576PX********/
+@media (min-width:576px) {
+  .gallery {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+
+/**********MOTIVI********/
+.t-motivi {
+  padding-left: 80px;
+  margin-top: 250px;
+  padding-bottom: 20px;
+font-family: 'PT Sans Narrow', sans-serif;
+text-transform: uppercase;
+
+}
+
+
+/**********INTRO********/
+.img-intro img {
+  width: 100%;
+}
+
+.img-intro {
+  padding-top: 80px;
+  padding-bottom: 5px;
+
+}
+
+.t-intro {
+  padding-left: 80px;
+  padding-right: 80px;
+  font-family: sans-serif, Cambria;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.p-intro {
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: 30px;
+}
+
+
+
+
+/**********GALLERY********/
+
+.box img {
+  height: 270px;
+}
+
+
+.gallery {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+
+@media (max-width:991px) {
+  .box img {
+    height: 150px;
+  }
+
+  .t-motivi {
+    padding-left: 21px;
+
+  }
+
+  .gallery {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+
+/**********CONTENT-PIATTI********/
+
+.content-piatti {
+  margin-top: 90px;
+}
+
+.title-piatti {
+  padding-top: 100px;
+}
+
+/**********IMG-PIATTI********/
+
+.item img {
+  width: 65%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/**********ITEM-PIATTI********/
+
+.item li {
+  list-style-type: none;
+}
+
+.item {
+  padding-bottom: 200px;
+}
+
+.item h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.item p {
+  padding: 30px 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+.title-piatti {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  padding-bottom: 100px;
+  padding-top: 120px;
+}
+
+
+/**********SCREEN MAN 589********/
+
+@media (min-width:303px) {
+
+  .item img {
+    width: 100%;
+  }
+
+  .item p {
+
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+
+@media (min-width:992px) {
+  .item img {
+    width: 75%;
+  }
+
+  .item p {
+    padding-left: 115px;
+    padding-right: 115px;
+  }
+
+}
+
+@media (min-width:1200px) {
+
+  .item p {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+}
+
+
+.p-footer{
+  margin-top: 400px;
+}
+
+/**********PUNTI TURISTICI********/
+.title-punti{
+  padding-top: 110px;
+  padding-bottom: 120px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+/**********ITEM PUNTI TURISTICI********/
+
+.item2{
+  padding-bottom: 60px;
+}
+
+
+.item2 img {
+  width: 65%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.item2 p {
+  padding: 30px 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
